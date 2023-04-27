@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+h2{
+    margin: 0%;
+}
+p{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0%;
+    z-index: 1;
+}
+.nav-item a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #071330;
+    padding: 15px;
+}
+.nav-link a{
+    position: absolute;
+    right: 140px;   
+    top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background: #3D55F9;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+.first-inner{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+.first-item{
+    max-width: 480px;
+}
+.first-item h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+    margin-bottom: 71px;
+}
+.first-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 46px;
+}
+.first-item a{
+    position: relative;
+    right: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#fff;
+    background: #3D55F9;
+    border-radius: 12px;
+    padding: 22px 30px; 
+}
+.form-input{
+    padding: 22px 51px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
+    border: 2px solid #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    color: #071330;
+}
+
+
+
+.second-inner{
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+.second-item{
+    padding-left: 260px;
+    padding-right: 105px;
+}
+.second-inner img{
+    position: relative;
+    left: 85px;
+}
+.second-item span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D55F9;
+}
+.second-item h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 33px 0;
+}
+.second-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+   margin-bottom: 31px;
+}
+
+
+.social{
+    padding-top: 250px;
+}
+.social-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    max-width: 700px;
+}
+.style-span{
+    background-color: #3D55F9;
+    border-radius: 50px;
+    padding: 15px 20px;
+    color: #fff;
+}
+.social-item{
+    max-width: 670px;
+}
+.social-item h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 33px 0;
+}
+.social-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 120px;
+}
+
+
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.box1 h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 56px;
+    color: #F0BCA3;
+    text-align: center;
+    max-width: 700px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 81px;
+}
+.box2 span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(7, 19, 48, 0.6);
+}
